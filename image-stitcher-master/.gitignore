@@ -1,0 +1,9 @@
+*.pyc
+
+# ignore everying in path ./test
+/test/*
+# but not the files in the whitelist below
+!/test/*.cpp
+!/test/*.h
+!/test/*.jpg
+!/test/*.png
